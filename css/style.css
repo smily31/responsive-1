@@ -1,0 +1,91 @@
+/*
+ * General Styles
+*/
+html{
+  font-size: 100%;
+}
+
+body {
+  font-family: 'Open Sans', arial, sans-serif;
+  background: url('../images/space-background.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+p {
+  font-size: 1rem;
+  line-height: 1.75;
+  margin-bottom: 1.75rem;
+  text-align: center;
+}
+
+.contact p{
+  font-family: cursive;
+}
+
+/*
+ * Heading Styles
+*/
+
+h1, h2 {
+  font-family: 'Lobster', cursive;
+  color: #e22f8f;
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 0.625rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2.1875rem;
+}
+
+/*
+ * Container Styles
+*/
+
+.container {
+  width: 37.5rem;
+  margin: 6.25rem auto;
+  background: #FFF;
+  /* border: 1px solid white; */
+  border-radius: 1.25rem;
+  padding: 0;
+}
+
+
+/* Hero Styles  */
+.hero img{
+  width: 100%;
+  border-radius: 1.25rem 1.25rem 0 0 ;
+}
+
+/* Section Styles  */
+section.intro, section.contact {
+  padding: 1.75rem;
+}
+
+/* Map Style  */
+.map iframe{
+  border-radius: 0 0 1.25rem 1.25rem;
+  width: 100%;
+}
+
+/* Aside Style  */
+aside.right{
+  float: right;
+}
+
+aside.left{
+  float: left;
+}
+
+aside {
+  margin-right: 1.5rem;
+  margin-bottom: 0.625rem;
+}

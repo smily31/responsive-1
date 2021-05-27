@@ -1,0 +1,21 @@
+/* this working fine in all phone during inspecting  */
+
+.container{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+aside.left , aside.right{
+    text-align: center;
+    float: inherit;
+}
+
+.hero img{
+    border-radius: 0;
+  }
+  
+  .map iframe{
+      margin:0 ;
+    border-radius: 0 ;
+  }
